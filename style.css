@@ -1,0 +1,358 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.flex{
+    display: flex;
+}
+.apparue{
+    display: none;
+}
+.etoile{
+    height: 10%;
+    position: relative;
+width: 16px;
+height: 16px;
+left: 30px;
+top: 10px;
+
+}
+
+.footer{
+    position: relative;
+    padding: 7%;
+    padding-top: 10%;
+}
+.backgroundfooter{
+    position: absolute;
+    opacity: 0.7;
+    width: 78%;
+
+}
+
+.p-gras{
+    font-weight: bold;
+    padding: 0%;
+    margin: 0%;
+}
+
+.useful{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 5px;
+
+width: 183px;
+height: 255px;
+}
+.Smartwinner{
+    padding-top: 5%;
+width: 260px;
+left: 483.73px;
+top: 144.37px;
+
+}
+.p-fine{
+    font-weight: lighter;
+    padding: 0%;
+    margin: 0%;
+    font-size: 75%;
+}
+.ligne-reseau{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu{
+    background-color: #F30000;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 600;
+
+}
+.yellow{
+    background-color: #F7D300;
+}
+.red{
+    background-color: #F30000;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+}
+.w{
+    width: 50%;
+}
+.blue{
+    background-color: #0061A3;
+
+}
+.blue2{
+    background-color: #0061A3;
+
+}
+.UK{
+    background-color: #F30000;
+    border-radius: 50%;
+    color: #FFFFFF;
+    padding: 1%;
+}
+.UK:hover{
+    background-color: #0061A3;
+    border-radius: 50%;
+    color: #FFFFFF;
+    padding: 1%;
+}
+@media(max-width : 576px){
+    .logo{
+        position:absolute;
+        display: flex;
+        left: 25%;
+        margin-top: 2rem;
+        align-items: center;
+        justify-content: center;
+              
+    }    
+    img{
+        height: 2rem;
+    }    
+        .reseau{
+            display: none;
+        }    
+
+    .text{
+        position: relative;
+        top: 5rem;
+        display: flex;
+        justify-content: space-around;
+        font-size: 12px;
+    }    
+
+    .menu{
+
+        position:relative;
+        top: -0.5rem;
+        display: flex;
+        font-weight: var(--bs-navbar-toggler-icon-bg);
+        justify-content: space-between;
+        background-color: transparent;
+    }    
+    .blue{
+        background-color: transparent;
+    }
+
+    .nav-bar{
+        
+        border: none;
+        --bs-navbar-toggler-icon-bg:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 0, 0, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
+    }    
+
+    nav{
+        
+    }    
+
+    .button-menu{
+border: none;        
+color: red;
+padding: 0%;
+    }
+
+    .button-account{
+        position: relative;
+       padding: 5%; 
+       color:#FFFFFF;
+        border: none;
+        background-color: #0061A3;
+        margin-left: 24px;
+    }    
+    }
+    
+
+
+
+
+
+
+@media(max-width : 720px){
+    .logo{
+        position:absolute;
+        display: flex;
+        left: 25%;
+        margin-top: 2rem;
+        align-items: center;
+        justify-content: center;
+    }    
+    img{
+        height: 2rem;
+    }    
+        .reseau{
+            display: none;
+        }    
+
+    .text{
+        position: relative;
+        top: 5rem;
+        display: flex;
+        justify-content: space-around;
+        font-size: 12px;
+    }    
+
+    .menu{
+
+        position:relative;
+        top: -0.5rem;
+        display: flex;
+        font-weight: var(--bs-navbar-toggler-icon-bg);
+        justify-content: space-between;
+        background-color: transparent;
+    }    
+    .blue{
+        background-color: transparent;
+    }
+
+    .nav-bar{
+        
+        border: none;
+        --bs-navbar-toggler-icon-bg:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 0, 0, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
+    }    
+
+    nav{
+        
+    }    
+
+    .button-menu{
+border: none;        
+color: red;
+padding: 0%;
+    }
+
+    .button-account{
+        position: relative;
+       padding: 5%; 
+       color:#FFFFFF;
+        border: none;
+        background-color: #0061A3;
+        margin-left: 24px;
+    }    
+    }
+    
+
+    .Biggest{
+        display: flex;
+    }
+
+
+    .bordure-Biggest{
+        height: 75%;
+    }
+
+    /* // X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .Biggest-img{
+        height: 100%;
+    }
+
+}
+
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+    .alignement-mobil{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .marge-alignement{
+        margin: 7px;
+    }
+
+    .marge-alignement2{
+        margin: 10px;
+    }
+    .dipsarution{
+        display: none;
+    }
+    .Biggest-img{
+        width: 85%;
+    }
+    .restor-taille{
+        height: unset ;
+    }
+.apparue{
+    display: block;
+}
+    
+    .disp3{
+        display: none;
+    }
+    .chiffre-reduce{
+        font-size: 100px;
+    }
+
+    .mega-img{
+        height: 10px;
+    }
+}
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+    .disp2{
+        display: none;
+    }
+
+    .Smartwinner{
+        width: auto;
+        left: auto;
+        top: auto;
+        
+        }
+
+        
+    
+}
+
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+    .menu{
+
+        position:relative;
+        top: -0.5rem;
+        display: flex;
+        font-weight: var(--bs-navbar-toggler-icon-bg);
+        justify-content: space-between;
+        background-color: transparent;
+    }    
+    .disp1{
+        display: none;
+    }
+    .Biggest{
+        display: block  ;
+    }
+    .bordure-Biggest{
+        height: 90%;
+    }
+
+    .Biggest-img{
+        height: 100%;
+    }
+    .ligne-reseau{
+        display: block;
+    }
+    
+
+    .useful{
+    display: flex;
+flex-direction: column;
+align-items:center;
+padding: 0px;
+gap: 5px;
+
+width: 183px;
+height: 255px;
+}
+
+}
+
+/* // X-Large devices (large desktops, less than 1400px) */
+
+/* // XX-Large devices (larger desktops) */
